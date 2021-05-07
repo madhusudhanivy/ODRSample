@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ODRSample/Classes/**/*"
+  "source_files": "ODRSample/Classes/**/*",
+  "dependencies": {
+    "SSZipArchive": [
+
+    ],
+    "GCDWebServer": [
+      "3.5.3"
+    ]
+  }
 }

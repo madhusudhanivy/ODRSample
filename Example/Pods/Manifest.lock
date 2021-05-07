@@ -1,16 +1,31 @@
 PODS:
-  - ODRSample (0.1.0)
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
+  - ODRSample (0.1.0):
+    - GCDWebServer (= 3.5.3)
+    - SSZipArchive
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
+  - GCDWebServer (= 3.5.3)
   - ODRSample (from `../`)
+  - SSZipArchive
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   ODRSample:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ODRSample: fea945207f8ef3e44374122ec06a16790e619e7a
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
+  ODRSample: c9bfb7482a788b03ba6e5f6a92c39a2676e6e0f2
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: 5fe8851372de3e0f82ad8b30caecd11ef96e8b17
+PODFILE CHECKSUM: 6699536c37fc55b5e9d0bcd58602385fcf8c64ec
 
 COCOAPODS: 1.10.1
