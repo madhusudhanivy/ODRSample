@@ -14,7 +14,7 @@
 		558C5834FA67B61B4D0AB74FF32D4231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8BBC04BD520D0052529C1252662E167D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1ABAB5384A436C2CC7DECC9A460221D /* Pods-ODRSample_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C302160926453CA100608495 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302160826453CA100608495 /* Model.swift */; };
+		C302160F26453F2A00608495 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302160E26453F2A00608495 /* Model.swift */; };
 		F3ACA3C91D24745E2F8F5573EC7829BC /* ODRSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29AE48F27A897B8867C04F009625E5 /* ODRSample-dummy.m */; };
 		FE45895A1A255C55A89DA4888E4748B5 /* ODRSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -63,7 +63,7 @@
 		A358C776AC40F69C5B2B0FB51A5F994D /* Pods-ODRSample_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ODRSample_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AFCF56872EED2962562BF43EE5C94F9F /* Pods-ODRSample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODRSample_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B071198407C4FDB657163BCE1E3697DB /* Pods-ODRSample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODRSample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C302160826453CA100608495 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C302160E26453F2A00608495 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C4B4F50BBDEF8307D6B10B2388AA102F /* ODRSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODRSample.release.xcconfig; sourceTree = "<group>"; };
 		D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODRSample_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODRSample-umbrella.h"; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		AD877C4284A5B43BB5E4CB75EE56FA3C /* ODRSample */ = {
 			isa = PBXGroup;
 			children = (
-				C302160726453B6300608495 /* Source */,
+				C302160D26453F0D00608495 /* Source */,
 				15E8CCB5B9BABA8F0A1310FDCB19D8E5 /* Pod */,
 				B0F3EF53062EBE0F769919C4DCE7F249 /* Support Files */,
 			);
@@ -180,13 +180,12 @@
 			path = "Example/Pods/Target Support Files/ODRSample";
 			sourceTree = "<group>";
 		};
-		C302160726453B6300608495 /* Source */ = {
+		C302160D26453F0D00608495 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C302160826453CA100608495 /* Model.swift */,
+				C302160E26453F2A00608495 /* Model.swift */,
 			);
-			name = Source;
-			path = ../../../../Desktop/Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -398,7 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3ACA3C91D24745E2F8F5573EC7829BC /* ODRSample-dummy.m in Sources */,
-				C302160926453CA100608495 /* Model.swift in Sources */,
+				C302160F26453F2A00608495 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +597,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ODRSample_Example/Pods-ODRSample_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ODRSample_Example/Pods-ODRSample_Example.modulemap";
@@ -723,7 +722,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ODRSample_Example/Pods-ODRSample_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ODRSample_Example/Pods-ODRSample_Example.modulemap";
