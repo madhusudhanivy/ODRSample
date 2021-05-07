@@ -1,0 +1,6 @@
+framework module ODRSample {
+  umbrella header "ODRSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

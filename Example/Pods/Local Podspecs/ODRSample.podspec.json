@@ -1,0 +1,22 @@
+{
+  "name": "ODRSample",
+  "version": "0.1.0",
+  "summary": "A short description of ODRSample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/madhusudhanivy/ODRSample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "madhusudhanivy": "madhusudhan.putta@ivycomptech.com"
+  },
+  "source": {
+    "git": "https://github.com/madhusudhanivy/ODRSample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ODRSample/Classes/**/*"
+}

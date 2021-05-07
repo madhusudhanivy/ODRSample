@@ -1,0 +1,16 @@
+PODS:
+  - ODRSample (0.1.0)
+
+DEPENDENCIES:
+  - ODRSample (from `../`)
+
+EXTERNAL SOURCES:
+  ODRSample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ODRSample: fea945207f8ef3e44374122ec06a16790e619e7a
+
+PODFILE CHECKSUM: 5fe8851372de3e0f82ad8b30caecd11ef96e8b17
+
+COCOAPODS: 1.10.1
