@@ -15,6 +15,29 @@
 		8BBC04BD520D0052529C1252662E167D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1ABAB5384A436C2CC7DECC9A460221D /* Pods-ODRSample_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C302160F26453F2A00608495 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302160E26453F2A00608495 /* Model.swift */; };
+		C37A3A282649350000823358 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A0B264934FF00823358 /* ZipManager.swift */; };
+		C37A3A292649350000823358 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A0C264934FF00823358 /* GameViewController.swift */; };
+		C37A3A2A2649350000823358 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A0D264934FF00823358 /* ODRManager.swift */; };
+		C37A3A2B2649350000823358 /* EmbeddedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A0E264934FF00823358 /* EmbeddedGame.swift */; };
+		C37A3A2C2649350000823358 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A0F264934FF00823358 /* GameManager.swift */; };
+		C37A3A2D2649350000823358 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A10264934FF00823358 /* WebServerManager.swift */; };
+		C37A3A2E2649350000823358 /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A11264934FF00823358 /* ViewBuildManager.swift */; };
+		C37A3A2F2649350000823358 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A13264934FF00823358 /* LoadingScreenViewController.swift */; };
+		C37A3A302649350000823358 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A15264934FF00823358 /* LoadingBarView.xib */; };
+		C37A3A312649350000823358 /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A16264934FF00823358 /* LoadingBarView.swift */; };
+		C37A3A322649350000823358 /* RoundedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A17264934FF00823358 /* RoundedBarView.swift */; };
+		C37A3A332649350000823358 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A18264934FF00823358 /* LoadingScreenViewController.xib */; };
+		C37A3A342649350000823358 /* NativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A1A264934FF00823358 /* NativeBridge.m */; };
+		C37A3A352649350000823358 /* 11653.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A1C2649350000823358 /* 11653.zip */; };
+		C37A3A362649350000823358 /* 11652.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A1D2649350000823358 /* 11652.zip */; };
+		C37A3A372649350000823358 /* GamesCore.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A1E2649350000823358 /* GamesCore.zip */; };
+		C37A3A382649350000823358 /* EmbeddedGame+Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A202649350000823358 /* EmbeddedGame+Native.swift */; };
+		C37A3A392649350000823358 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A212649350000823358 /* NativeGame+PostMessage.swift */; };
+		C37A3A3A2649350000823358 /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A222649350000823358 /* NativeGame+WebView.swift */; };
+		C37A3A3B2649350000823358 /* EmbeddedGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A232649350000823358 /* EmbeddedGameViewController.swift */; };
+		C37A3A3C2649350000823358 /* NativeGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A242649350000823358 /* NativeGame.xib */; };
+		C37A3A3D2649350000823358 /* NativeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A252649350000823358 /* NativeGame.swift */; };
+		C37A3A3E2649350000823358 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A272649350000823358 /* NativeUtils.swift */; };
 		F3ACA3C91D24745E2F8F5573EC7829BC /* ODRSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29AE48F27A897B8867C04F009625E5 /* ODRSample-dummy.m */; };
 		FE45895A1A255C55A89DA4888E4748B5 /* ODRSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -64,6 +87,29 @@
 		AFCF56872EED2962562BF43EE5C94F9F /* Pods-ODRSample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODRSample_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B071198407C4FDB657163BCE1E3697DB /* Pods-ODRSample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODRSample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C302160E26453F2A00608495 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C37A3A0B264934FF00823358 /* ZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipManager.swift; sourceTree = "<group>"; };
+		C37A3A0C264934FF00823358 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C37A3A0D264934FF00823358 /* ODRManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
+		C37A3A0E264934FF00823358 /* EmbeddedGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedGame.swift; sourceTree = "<group>"; };
+		C37A3A0F264934FF00823358 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		C37A3A10264934FF00823358 /* WebServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServerManager.swift; sourceTree = "<group>"; };
+		C37A3A11264934FF00823358 /* ViewBuildManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuildManager.swift; sourceTree = "<group>"; };
+		C37A3A13264934FF00823358 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		C37A3A15264934FF00823358 /* LoadingBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
+		C37A3A16264934FF00823358 /* LoadingBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
+		C37A3A17264934FF00823358 /* RoundedBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBarView.swift; sourceTree = "<group>"; };
+		C37A3A18264934FF00823358 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
+		C37A3A1A264934FF00823358 /* NativeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeBridge.m; sourceTree = "<group>"; };
+		C37A3A1C2649350000823358 /* 11653.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11653.zip; sourceTree = "<group>"; };
+		C37A3A1D2649350000823358 /* 11652.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11652.zip; sourceTree = "<group>"; };
+		C37A3A1E2649350000823358 /* GamesCore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = GamesCore.zip; sourceTree = "<group>"; };
+		C37A3A202649350000823358 /* EmbeddedGame+Native.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmbeddedGame+Native.swift"; sourceTree = "<group>"; };
+		C37A3A212649350000823358 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
+		C37A3A222649350000823358 /* NativeGame+WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+WebView.swift"; sourceTree = "<group>"; };
+		C37A3A232649350000823358 /* EmbeddedGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedGameViewController.swift; sourceTree = "<group>"; };
+		C37A3A242649350000823358 /* NativeGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeGame.xib; sourceTree = "<group>"; };
+		C37A3A252649350000823358 /* NativeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeGame.swift; sourceTree = "<group>"; };
+		C37A3A272649350000823358 /* NativeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeUtils.swift; sourceTree = "<group>"; };
 		C4B4F50BBDEF8307D6B10B2388AA102F /* ODRSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODRSample.release.xcconfig; sourceTree = "<group>"; };
 		D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODRSample_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODRSample-umbrella.h"; sourceTree = "<group>"; };
@@ -184,8 +230,87 @@
 			isa = PBXGroup;
 			children = (
 				C302160E26453F2A00608495 /* Model.swift */,
+				C37A3A19264934FF00823358 /* Bridge */,
+				C37A3A1B2649350000823358 /* Games */,
+				C37A3A12264934FF00823358 /* Loading View */,
+				C37A3A1F2649350000823358 /* Native Games */,
+				C37A3A262649350000823358 /* Presenter */,
+				C37A3A0A264934FF00823358 /* SharedInstance */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		C37A3A0A264934FF00823358 /* SharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A0B264934FF00823358 /* ZipManager.swift */,
+				C37A3A0C264934FF00823358 /* GameViewController.swift */,
+				C37A3A0D264934FF00823358 /* ODRManager.swift */,
+				C37A3A0E264934FF00823358 /* EmbeddedGame.swift */,
+				C37A3A0F264934FF00823358 /* GameManager.swift */,
+				C37A3A10264934FF00823358 /* WebServerManager.swift */,
+				C37A3A11264934FF00823358 /* ViewBuildManager.swift */,
+			);
+			path = SharedInstance;
+			sourceTree = "<group>";
+		};
+		C37A3A12264934FF00823358 /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A13264934FF00823358 /* LoadingScreenViewController.swift */,
+				C37A3A14264934FF00823358 /* RoundedBar */,
+				C37A3A18264934FF00823358 /* LoadingScreenViewController.xib */,
+			);
+			path = "Loading View";
+			sourceTree = "<group>";
+		};
+		C37A3A14264934FF00823358 /* RoundedBar */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A15264934FF00823358 /* LoadingBarView.xib */,
+				C37A3A16264934FF00823358 /* LoadingBarView.swift */,
+				C37A3A17264934FF00823358 /* RoundedBarView.swift */,
+			);
+			path = RoundedBar;
+			sourceTree = "<group>";
+		};
+		C37A3A19264934FF00823358 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A1A264934FF00823358 /* NativeBridge.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		C37A3A1B2649350000823358 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A1C2649350000823358 /* 11653.zip */,
+				C37A3A1D2649350000823358 /* 11652.zip */,
+				C37A3A1E2649350000823358 /* GamesCore.zip */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		C37A3A1F2649350000823358 /* Native Games */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A202649350000823358 /* EmbeddedGame+Native.swift */,
+				C37A3A212649350000823358 /* NativeGame+PostMessage.swift */,
+				C37A3A222649350000823358 /* NativeGame+WebView.swift */,
+				C37A3A232649350000823358 /* EmbeddedGameViewController.swift */,
+				C37A3A242649350000823358 /* NativeGame.xib */,
+				C37A3A252649350000823358 /* NativeGame.swift */,
+			);
+			path = "Native Games";
+			sourceTree = "<group>";
+		};
+		C37A3A262649350000823358 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A272649350000823358 /* NativeUtils.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -370,6 +495,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37A3A372649350000823358 /* GamesCore.zip in Resources */,
+				C37A3A302649350000823358 /* LoadingBarView.xib in Resources */,
+				C37A3A3C2649350000823358 /* NativeGame.xib in Resources */,
+				C37A3A362649350000823358 /* 11652.zip in Resources */,
+				C37A3A352649350000823358 /* 11653.zip in Resources */,
+				C37A3A332649350000823358 /* LoadingScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +527,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37A3A382649350000823358 /* EmbeddedGame+Native.swift in Sources */,
+				C37A3A292649350000823358 /* GameViewController.swift in Sources */,
+				C37A3A2D2649350000823358 /* WebServerManager.swift in Sources */,
+				C37A3A2A2649350000823358 /* ODRManager.swift in Sources */,
+				C37A3A3E2649350000823358 /* NativeUtils.swift in Sources */,
+				C37A3A3B2649350000823358 /* EmbeddedGameViewController.swift in Sources */,
 				F3ACA3C91D24745E2F8F5573EC7829BC /* ODRSample-dummy.m in Sources */,
+				C37A3A2E2649350000823358 /* ViewBuildManager.swift in Sources */,
+				C37A3A392649350000823358 /* NativeGame+PostMessage.swift in Sources */,
+				C37A3A3D2649350000823358 /* NativeGame.swift in Sources */,
+				C37A3A2C2649350000823358 /* GameManager.swift in Sources */,
+				C37A3A3A2649350000823358 /* NativeGame+WebView.swift in Sources */,
+				C37A3A282649350000823358 /* ZipManager.swift in Sources */,
+				C37A3A2F2649350000823358 /* LoadingScreenViewController.swift in Sources */,
+				C37A3A322649350000823358 /* RoundedBarView.swift in Sources */,
 				C302160F26453F2A00608495 /* Model.swift in Sources */,
+				C37A3A342649350000823358 /* NativeBridge.m in Sources */,
+				C37A3A2B2649350000823358 /* EmbeddedGame.swift in Sources */,
+				C37A3A312649350000823358 /* LoadingBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

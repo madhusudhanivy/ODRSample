@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingScreenViewController" customModule="Eurobet_Casino_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="loadingBar" destination="nHo-5R-9lB" id="DcS-Rc-LGi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg" translatesAutoresizingMaskIntoConstraints="NO" id="PGV-I0-VbI">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIc-ai-TqZ" userLabel="Wrapper">
+                    <rect key="frame" x="93" y="421.5" width="228" height="53"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eurobet_solid_logo" translatesAutoresizingMaskIntoConstraints="NO" id="MZB-do-BoX">
+                            <rect key="frame" x="0.0" y="0.0" width="228" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="MZB-do-BoX" secondAttribute="height" multiplier="116:15" id="gsh-M0-5WD"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHo-5R-9lB" customClass="LoadingBarView" customModule="Eurobet_Casino_iOS" customModuleProvider="target">
+                            <rect key="frame" x="23" y="45" width="182" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="FcN-bI-QwC"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                    <color key="value" red="0.86274509803921573" green="0.75294117647058822" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="nHo-5R-9lB" firstAttribute="centerX" secondItem="dIc-ai-TqZ" secondAttribute="centerX" id="3C5-W6-dP6"/>
+                        <constraint firstItem="MZB-do-BoX" firstAttribute="leading" secondItem="dIc-ai-TqZ" secondAttribute="leading" id="JMr-oZ-1zC"/>
+                        <constraint firstAttribute="bottom" secondItem="nHo-5R-9lB" secondAttribute="bottom" id="Xwn-Jx-0fg"/>
+                        <constraint firstItem="nHo-5R-9lB" firstAttribute="top" secondItem="MZB-do-BoX" secondAttribute="bottom" constant="16" id="czR-5t-EKf"/>
+                        <constraint firstItem="nHo-5R-9lB" firstAttribute="width" secondItem="dIc-ai-TqZ" secondAttribute="width" multiplier="0.8" id="j3S-6Y-Qn6"/>
+                        <constraint firstAttribute="trailing" secondItem="MZB-do-BoX" secondAttribute="trailing" id="kc9-rU-FwM"/>
+                        <constraint firstItem="MZB-do-BoX" firstAttribute="top" secondItem="dIc-ai-TqZ" secondAttribute="top" id="w6r-ga-0ky"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PGV-I0-VbI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="36d-JL-c05"/>
+                <constraint firstItem="PGV-I0-VbI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6mx-Jk-R4a"/>
+                <constraint firstItem="dIc-ai-TqZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Fxk-Hw-RLX"/>
+                <constraint firstItem="dIc-ai-TqZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JGz-H8-lbH"/>
+                <constraint firstItem="dIc-ai-TqZ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.55" id="sJV-Cb-DwG"/>
+                <constraint firstItem="PGV-I0-VbI" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="tQN-08-ZqD"/>
+                <constraint firstItem="PGV-I0-VbI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="zzS-kD-uos"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bkg" width="320" height="567"/>
+        <image name="eurobet_solid_logo" width="116" height="15"/>
+    </resources>
+</document>
