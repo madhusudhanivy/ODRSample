@@ -15,6 +15,9 @@
 		8BBC04BD520D0052529C1252662E167D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1ABAB5384A436C2CC7DECC9A460221D /* Pods-ODRSample_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C302160F26453F2A00608495 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302160E26453F2A00608495 /* Model.swift */; };
+		C37A3A742649495D00823358 /* 11653.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A712649495D00823358 /* 11653.zip */; };
+		C37A3A752649495D00823358 /* 11652.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A722649495D00823358 /* 11652.zip */; };
+		C37A3A762649495D00823358 /* GamesCore.zip in Resources */ = {isa = PBXBuildFile; fileRef = C37A3A732649495D00823358 /* GamesCore.zip */; };
 		F3ACA3C91D24745E2F8F5573EC7829BC /* ODRSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29AE48F27A897B8867C04F009625E5 /* ODRSample-dummy.m */; };
 		FE45895A1A255C55A89DA4888E4748B5 /* ODRSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -64,6 +67,9 @@
 		AFCF56872EED2962562BF43EE5C94F9F /* Pods-ODRSample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODRSample_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B071198407C4FDB657163BCE1E3697DB /* Pods-ODRSample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODRSample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C302160E26453F2A00608495 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C37A3A712649495D00823358 /* 11653.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11653.zip; sourceTree = "<group>"; };
+		C37A3A722649495D00823358 /* 11652.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11652.zip; sourceTree = "<group>"; };
+		C37A3A732649495D00823358 /* GamesCore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = GamesCore.zip; sourceTree = "<group>"; };
 		C4B4F50BBDEF8307D6B10B2388AA102F /* ODRSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODRSample.release.xcconfig; sourceTree = "<group>"; };
 		D269BE6D65582F2A4C36499EC6FAA2E1 /* Pods-ODRSample_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODRSample_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3B2EEEEC97C25B70F9D91B6D46CCA59 /* ODRSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODRSample-umbrella.h"; sourceTree = "<group>"; };
@@ -183,9 +189,20 @@
 		C302160D26453F0D00608495 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C37A3A702649495D00823358 /* Games */,
 				C302160E26453F2A00608495 /* Model.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		C37A3A702649495D00823358 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3A712649495D00823358 /* 11653.zip */,
+				C37A3A722649495D00823358 /* 11652.zip */,
+				C37A3A732649495D00823358 /* GamesCore.zip */,
+			);
+			path = Games;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -370,6 +387,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37A3A742649495D00823358 /* 11653.zip in Resources */,
+				C37A3A752649495D00823358 /* 11652.zip in Resources */,
+				C37A3A762649495D00823358 /* GamesCore.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
